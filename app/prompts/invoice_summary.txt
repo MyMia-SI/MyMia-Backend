@@ -1,0 +1,6 @@
+# Folder: /app/prompts
+# Prompt template for invoice summary
+
+Input: Invoice data and billing metadata.
+
+Summarize invoice items and highlight anomalies.

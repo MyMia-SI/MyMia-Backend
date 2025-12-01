@@ -1,0 +1,6 @@
+# Folder: /app/prompts
+# Prompt template for job classification (Gemini Pro)
+
+Input: Job notes and any media references
+
+Classify the job type into a list of categories and confidence scores.

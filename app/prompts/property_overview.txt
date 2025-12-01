@@ -1,0 +1,6 @@
+# Folder: /app/prompts
+# Prompt template for property overview (Maps + Weather)
+
+Input: {address, property_metadata}
+
+Return a risk assessment and property overview.

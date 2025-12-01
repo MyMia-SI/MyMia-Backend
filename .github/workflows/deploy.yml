@@ -1,0 +1,17 @@
+# Folder: /.github/workflows
+name: Deploy
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Deploy to Cloud Run
+        env:
+          PROJECT_ID: ${{ secrets.GCP_PROJECT }}
+        run: |
+          echo "Deploy step placeholder — configure gcloud and service accounts"

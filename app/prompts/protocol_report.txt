@@ -1,0 +1,6 @@
+# Folder: /app/prompts
+# Prompt template for writing remediation protocol (GPT-5)
+
+Input: {observations}
+
+Draft a remediation protocol in clear bullet points.

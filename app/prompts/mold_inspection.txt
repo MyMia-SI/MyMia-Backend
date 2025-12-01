@@ -1,0 +1,6 @@
+# Folder: /app/prompts
+# Prompt template for mold inspection (Gemini Vision + GPT-5)
+
+{image}
+
+Analyze the image and provide detected moisture or mold signs.

@@ -1,0 +1,6 @@
+# Folder: /app/prompts
+# Prompt template for virtual assessment (Gemini Video)
+
+{video}
+
+Extract key frames and describe potential issues.

@@ -1,0 +1,14 @@
+# Folder: /deploy
+# Minimal Cloud Run configuration
+apiVersion: v1
+kind: Service
+metadata:
+  name: mymia
+spec:
+  template:
+    spec:
+      containers:
+        - image: gcr.io/PROJECT/mymia
+          env:
+            - name: LOG_LEVEL
+              value: INFO

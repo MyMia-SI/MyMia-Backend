@@ -1,0 +1,6 @@
+# Folder: /app/prompts
+# Prompt template for email summary
+
+Input: Collection of emails or threads
+
+Return a short actionable summary and suggested next steps.
